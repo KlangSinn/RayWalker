@@ -78,15 +78,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="header\color.cpp" />
-    <ClCompile Include="header\glutwindow.cpp" />
-    <ClCompile Include="header\pixel.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="glutwindow.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="pixel.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\color.hpp" />
     <ClInclude Include="header\glutwindow.hpp" />
-    <ClInclude Include="header\Pixel.hpp" />
+    <ClInclude Include="pixel.hpp" />
+    <ClInclude Include="point.hpp" />
+    <ClInclude Include="vector.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
